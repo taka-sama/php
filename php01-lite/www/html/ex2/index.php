@@ -4,7 +4,7 @@
   $str = $_POST['change_css'];
   $table = array(
   '{'=> " {\n ",
-  '}'=> "\n}\n \n",
+  '}'=> "}\n \n",
   ";"=> ";\n ",
   );
   $search = array_keys( $table);
